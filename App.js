@@ -14,7 +14,7 @@ class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Welcome to React Native!</Text>
+        <Text style={styles.text}>Welcome to React Navigation!</Text>
         <Button 
           title="Tap me 😄"
           onPress={this.onPress}
@@ -24,11 +24,12 @@ class App extends Component<Props> {
   }
 }
 
+// Hello World view
 class HelloWorld extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Hello World!🤓</Text>
+        <Text style={styles.text}>Hello World!🤓</Text>
       </View>
     )
   }
@@ -40,7 +41,12 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     alignItems: 'center',
     justifyContent: 'center',
-  }
+  },
+  text: {
+    color: 'black',
+    fontSize: 20,
+    marginBottom: 10,
+  },
 })
 
 // Create Stack Navigator gets two props createStackNavigator(routes, config)

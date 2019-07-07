@@ -1,11 +1,4 @@
----
-title: React Navigation - Getting started!
-published: false
-description: In this article, we are going to understand the basic concepts of this popular library and how to make your React Native apps more scalable with navigation.
-tags: #react #javascript #reactnative #reactnavigation 
-cover_image: https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80
----
-
+# React Navigation - Getting started! 😎
 
 **In this article**, we are going to understand the **basic concepts** of this popular library and how to make your React Native apps more **scalable with navigation.**
 
